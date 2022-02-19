@@ -6,7 +6,7 @@ package Controlador;
 
 import Modelo.MDB;
 import Vista.FrmCliente;
-import Vista.FrmVista;
+//import Vista.FrmVista;
 import java.awt.event.ActionEvent;
 import javax.swing.JOptionPane;
 
