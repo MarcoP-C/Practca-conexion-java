@@ -2,7 +2,7 @@ package Modelo;
 
 import java.sql.*;
 import java.util.*;
-
+// la conexion fue realizada por Marco Placios y a su MYSQL
 public class MDB {
 	
 	protected String sqlQuery;
