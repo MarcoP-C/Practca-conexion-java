@@ -8,13 +8,14 @@ import Modelo.MDB;
 import Vista.FrmCliente;
 //import Vista.FrmVista;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 
 /**
  *
  * @author ASUS
  */
-public class ControladorCliente {
+public class ControladorCliente implements ActionListener {
     private FrmCliente _view; //el formulario esat se modifica***********************************************
   private MDB _model;//el manejador de bases de datos
 
@@ -32,7 +33,7 @@ public void actionPerformed(ActionEvent e) {
 
         if (e.getSource()==_view.cmdAlta){ //Si el botón presionado fue el de alta
          // System.out.print("paso");
-        leyenda=_model.registrarAlta("clientes"," null, ' " +_view.txtNombre.getText()+" ',' " +_view.txtUsuario.getText() +" ', "+_view.txtpsw.getText() );//**************
+        leyenda=_model.registrarAlta("clientes"," null, ' " +_view.txtCedula.getText()+" ',' " +_view.txtLugarExp.getText() +" ', "+_view.txtNombreCom.getText()+" ', "+_view.txtProfesion.getText()+" ', "+_view.txtDireccion.getText()+" ', "+_view.txtCiudad.getText()+" ', "+_view.txtDepartamento.getText() );//**************
         //Se puede usar una variable o el control, lo ideal es que se pudiera llamar una función de
        // validación aquí sobre los datos obteindos de las cajas de texto
        System.out.print (leyenda);
@@ -46,9 +47,13 @@ public void iniciar(){
 _view.setTitle("MVC_Visual");
 }
 public void limpiar(){
-_view.txtNombre.setText(null); //********************************************
-_view.txtUsuario.setText(null);
+_view.txtCedula.setText(null); //********************************************
+_view.txtLugarExp.setText(null);
+_view.txtNombreCom.setText(null);
+_view.txtProfesion.setText(null);
+_view.txtDireccion.setText(null);
+_view.txtCiudad.setText(null);
+_view.txtDepartamento.setText(null);
 
-_view.txtpsw.setText(null);
 }
 }
