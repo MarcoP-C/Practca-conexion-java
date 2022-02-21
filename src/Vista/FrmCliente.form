@@ -27,23 +27,6 @@
               <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="lblNombreCom" max="32767" attributes="0"/>
-                              <Component id="lblLugarExp" max="32767" attributes="0"/>
-                              <Component id="lblCedula" max="32767" attributes="0"/>
-                          </Group>
-                          <Component id="lblProfesion" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="txtProfesion" min="-2" pref="63" max="-2" attributes="0"/>
-                          <Component id="txtCedula" min="-2" pref="63" max="-2" attributes="0"/>
-                          <Component id="txtLugarExp" min="-2" pref="63" max="-2" attributes="0"/>
-                          <Component id="txtNombreCom" min="-2" pref="63" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                           <Component id="lblDepartamento" alignment="0" max="32767" attributes="0"/>
                           <Component id="lblCiudad" alignment="0" max="32767" attributes="0"/>
@@ -51,18 +34,94 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="txtDireccion" min="-2" pref="63" max="-2" attributes="0"/>
-                          <Component id="txtCiudad" min="-2" pref="63" max="-2" attributes="0"/>
-                          <Component id="txtDepartamento" min="-2" pref="63" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="cmdAlta" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                               <Component id="cmdEliminar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="87" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="txtDireccion" min="-2" pref="63" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="txtFechaCredito" min="-2" pref="63" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="txtCiudad" min="-2" pref="63" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="txtTipoCartera" min="-2" pref="63" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblNumCuotas" min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Component id="txtDepartamento" min="-2" pref="63" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="txtValorCredito" min="-2" pref="63" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtNumCuotas" min="-2" pref="63" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
                       </Group>
                   </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="lblNombreCom" max="32767" attributes="0"/>
+                                      <Component id="lblLugarExp" max="32767" attributes="0"/>
+                                      <Component id="lblCedula" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblProfesion" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="txtProfesion" min="-2" pref="63" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="lblNumFactura" min="-2" pref="37" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="txtNombreCom" min="-2" pref="63" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="lblTelTrabajo" min="-2" pref="37" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="txtCedula" min="-2" pref="63" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Component id="lblEmail" min="-2" pref="37" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtLugarExp" min="-2" pref="63" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                      <Component id="lblCelRecidencia" min="-2" pref="58" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lblValorCredito" alignment="1" pref="0" max="32767" attributes="0"/>
+                              <Component id="lblTipoCartera" alignment="1" pref="0" max="32767" attributes="0"/>
+                              <Component id="lblFechaCredito" alignment="1" min="-2" pref="58" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtEmail" alignment="1" min="-2" pref="63" max="-2" attributes="0"/>
+                          <Component id="txtCelRecidencia" alignment="1" min="-2" pref="63" max="-2" attributes="0"/>
+                          <Component id="txtTelTrabajo" alignment="1" min="-2" pref="63" max="-2" attributes="0"/>
+                          <Component id="txtNumFactura" alignment="1" min="-2" pref="63" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
-              <EmptySpace pref="127" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -73,38 +132,57 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblCedula" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtCedula" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtEmail" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblLugarExp" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtLugarExp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCelRecidencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCelRecidencia" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="txtNombreCom" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="lblNombreCom" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTelTrabajo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTelTrabajo" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblProfesion" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtProfesion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblNumFactura" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNumFactura" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblDireccion" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtDireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFechaCredito" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFechaCredito" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblCiudad" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtCiudad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTipoCartera" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTipoCartera" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblDepartamento" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtDepartamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblValorCredito" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtValorCredito" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="47" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNumCuotas" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNumCuotas" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="18" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="cmdAlta" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="cmdEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -212,6 +290,107 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Eliminar"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEmail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCelRecidencia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="cel de recidencia "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTelTrabajo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="telf del trabajo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNumFactura">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="num factura"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFechaCredito">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="fecha de credito"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTipoCartera">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="tipo cartera"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblValorCredito">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="valor del credito"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEmail">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtEmailActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCelRecidencia">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCelRecidenciaActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelTrabajo">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTelTrabajoActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNumFactura">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFechaCredito">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFechaCreditoActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTipoCartera">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTipoCarteraActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtValorCredito">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtValorCreditoActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNumCuotas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="num cuotas"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNumCuotas">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNumCuotasActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
