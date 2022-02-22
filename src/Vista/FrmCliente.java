@@ -45,12 +45,14 @@ public class FrmCliente extends javax.swing.JFrame {
         lblEmail = new javax.swing.JLabel();
         lblCelRecidencia = new javax.swing.JLabel();
         lblTelTrabajo = new javax.swing.JLabel();
+        lblNumFactura = new javax.swing.JLabel();
         lblFechaCredito = new javax.swing.JLabel();
         lblTipoCartera = new javax.swing.JLabel();
         lblValorCredito = new javax.swing.JLabel();
         txtEmail = new javax.swing.JTextField();
         txtCelRecidencia = new javax.swing.JTextField();
         txtTelTrabajo = new javax.swing.JTextField();
+        txtNumFactura = new javax.swing.JTextField();
         txtFechaCredito = new javax.swing.JTextField();
         txtTipoCartera = new javax.swing.JTextField();
         txtValorCredito = new javax.swing.JTextField();
@@ -112,6 +114,8 @@ public class FrmCliente extends javax.swing.JFrame {
         lblCelRecidencia.setText("cel de recidencia ");
 
         lblTelTrabajo.setText("telf del trabajo");
+
+        lblNumFactura.setText("num factura");
 
         lblFechaCredito.setText("fecha de credito");
 
@@ -214,7 +218,10 @@ public class FrmCliente extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(txtProfesion, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(layout.createSequentialGroup()
+                                            .addComponent(txtProfesion, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(lblNumFactura, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                             .addComponent(txtNombreCom, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -235,7 +242,8 @@ public class FrmCliente extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtEmail, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtCelRecidencia, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtTelTrabajo, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(txtTelTrabajo, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtNumFactura, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(40, 40, 40))
         );
         layout.setVerticalGroup(
@@ -262,7 +270,9 @@ public class FrmCliente extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblProfesion)
-                    .addComponent(txtProfesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtProfesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblNumFactura)
+                    .addComponent(txtNumFactura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblDireccion)
@@ -391,6 +401,7 @@ public class FrmCliente extends javax.swing.JFrame {
     private javax.swing.JLabel lblLugarExp;
     private javax.swing.JLabel lblNombreCom;
     private javax.swing.JLabel lblNumCuotas;
+    private javax.swing.JLabel lblNumFactura;
     private javax.swing.JLabel lblProfesion;
     private javax.swing.JLabel lblTelTrabajo;
     private javax.swing.JLabel lblTipoCartera;
@@ -405,6 +416,7 @@ public class FrmCliente extends javax.swing.JFrame {
     public javax.swing.JTextField txtLugarExp;
     public javax.swing.JTextField txtNombreCom;
     public javax.swing.JTextField txtNumCuotas;
+    public javax.swing.JTextField txtNumFactura;
     public javax.swing.JTextField txtProfesion;
     public javax.swing.JTextField txtTelTrabajo;
     public javax.swing.JTextField txtTipoCartera;
