@@ -37,7 +37,8 @@ public void actionPerformed(ActionEvent e) {
         leyenda=_model.registrarAlta("seguimiento_clientes"," null, ' " +_view.txtCedula.getText()+" ',' " +_view.txtLugarExpcn.getText() +" ', "
                 + ""+_view.txtNombre.getText()+" ',' " +_view.txtProfesion.getText()+" ',' " +_view.txtDireccion.getText()+" ',' " +_view.txtCiudad.getText()+" ',' "
                         + "" +_view.txtDepartamento.getText()+ "" +_view.txtValMora.getText()+ "" +_view.txtVSeguro.getText()+ "" +_view.txtInteresMora.getText()
-                            + "" +_view.txtSaldRestante.getText()+ "" +_view.txtTipoCobro.getText()+ "" +_view.txtFechaAcuerdoUno.getText()+ "" +_view.txtAcuerdoUno.getText());//**************
+                            + "" +_view.txtSaldRestante.getText()+ "" +_view.txtTipoCobro.getText()+ "" +_view.txtFechaAcuerdoUno.getText()+ "" +_view.txtAcuerdoUno.getText()
+                                    + "" +_view.txtFechaAcuerdoDos.getText()+""+_view.txtAcuerdoDos.getText()+""+_view.txtFechaAcuerdoTres.getText()+""+_view.txtAcuerdoTres.getText()+""+_view.txtFechaAcuerdoCuatro.getText()+""+_view.txtAcuerdoCuatro.getText());//**************
         //Se puede usar una variable o el control, lo ideal es que se pudiera llamar una función de
        // validación aquí sobre los datos obteindos de las cajas de texto
        System.out.print (leyenda);
@@ -65,5 +66,11 @@ _view.txtSaldRestante.setText(null);
 _view.txtTipoCobro.setText(null);
 _view.txtFechaAcuerdoUno.setText(null);
 _view.txtAcuerdoUno.setText(null);
+_view.txtFechaAcuerdoDos.setText(null);
+_view.txtAcuerdoDos.setText(null);
+_view.txtFechaAcuerdoTres.setText(null);
+_view.txtAcuerdoTres.setText(null);
+_view.txtFechaAcuerdoCuatro.setText(null);
+_view.txtAcuerdoCuatro.setText(null);
 }
 }
