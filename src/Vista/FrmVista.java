@@ -51,6 +51,12 @@ public class FrmVista extends javax.swing.JFrame {
             }
         });
 
+        txtpsw.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtpswActionPerformed(evt);
+            }
+        });
+
         cmdAlta.setText("Altas");
 
         lblNombre.setText("Nombre");
@@ -115,6 +121,10 @@ public class FrmVista extends javax.swing.JFrame {
     private void txtNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtNombreActionPerformed
+
+    private void txtpswActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtpswActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtpswActionPerformed
 
     public void arranca() {
        pack();// coloca los componentes

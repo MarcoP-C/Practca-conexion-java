@@ -83,11 +83,7 @@
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <Component id="txtProfesion" min="-2" pref="63" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="lblNumFactura" min="-2" pref="37" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="txtProfesion" min="-2" pref="63" max="-2" attributes="0"/>
                                       <Group type="102" alignment="1" attributes="0">
                                           <Component id="txtNombreCom" min="-2" pref="63" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
@@ -117,7 +113,6 @@
                           <Component id="txtEmail" alignment="1" min="-2" pref="63" max="-2" attributes="0"/>
                           <Component id="txtCelRecidencia" alignment="1" min="-2" pref="63" max="-2" attributes="0"/>
                           <Component id="txtTelTrabajo" alignment="1" min="-2" pref="63" max="-2" attributes="0"/>
-                          <Component id="txtNumFactura" alignment="1" min="-2" pref="63" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -153,8 +148,6 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblProfesion" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtProfesion" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblNumFactura" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtNumFactura" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -309,11 +302,6 @@
         <Property name="text" type="java.lang.String" value="telf del trabajo"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblNumFactura">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="num factura"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JLabel" name="lblFechaCredito">
       <Properties>
         <Property name="text" type="java.lang.String" value="fecha de credito"/>
@@ -349,11 +337,6 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTelTrabajoActionPerformed"/>
       </Events>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
-      </AuxValues>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtNumFactura">
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
