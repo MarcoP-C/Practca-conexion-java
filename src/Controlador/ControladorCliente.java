@@ -27,7 +27,7 @@ public class ControladorCliente implements ActionListener {
        this._view.cmdEliminar.addActionListener(this);//se obtiene el control de botón eliminar
 }
 @Override
-//En este método se ΗatrapaΗ la interacción del usuario
+//En este método se ΗatrapaΗ la interacción del usuario-
 public void actionPerformed(ActionEvent e) {
         String leyenda="";//esta variable servirá para atrapar los errores sql
 
