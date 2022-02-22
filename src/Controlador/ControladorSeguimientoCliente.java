@@ -36,7 +36,8 @@ public void actionPerformed(ActionEvent e) {
          //En estas linea se toman los valores puestos en el formulario, para llevarlos a la base de datos.
         leyenda=_model.registrarAlta("seguimiento_clientes"," null, ' " +_view.txtCedula.getText()+" ',' " +_view.txtLugarExpcn.getText() +" ', "
                 + ""+_view.txtNombre.getText()+" ',' " +_view.txtProfesion.getText()+" ',' " +_view.txtDireccion.getText()+" ',' " +_view.txtCiudad.getText()+" ',' "
-                        + "" +_view.txtDepartamento.getText());//**************
+                        + "" +_view.txtDepartamento.getText()+ "" +_view.txtValMora.getText()+ "" +_view.txtVSeguro.getText()+ "" +_view.txtInteresMora.getText()
+                            + "" +_view.txtSaldRestante.getText()+ "" +_view.txtTipoCobro.getText()+ "" +_view.txtFechaAcuerdoUno.getText()+ "" +_view.txtAcuerdoUno.getText());//**************
         //Se puede usar una variable o el control, lo ideal es que se pudiera llamar una función de
        // validación aquí sobre los datos obteindos de las cajas de texto
        System.out.print (leyenda);
@@ -57,5 +58,12 @@ _view.txtProfesion.setText(null);
 _view.txtDireccion.setText(null);
 _view.txtCiudad.setText(null);
 _view.txtDepartamento.setText(null);
+_view.txtValMora.setText(null);
+_view.txtVSeguro.setText(null);
+_view.txtInteresMora.setText(null);
+_view.txtSaldRestante.setText(null);
+_view.txtTipoCobro.setText(null);
+_view.txtFechaAcuerdoUno.setText(null);
+_view.txtAcuerdoUno.setText(null);
 }
 }
