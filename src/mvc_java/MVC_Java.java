@@ -38,6 +38,7 @@ public class MVC_Java {
         objController1.iniciar();
         objVista.setVisible(true);
         objCliente.setVisible(true);
+        
         //FrmSeguimientoCliente
         MDB objModeloSc=new MDB();
         FrmSeguimientoCliente objVistaSC=new FrmSeguimientoCliente();
