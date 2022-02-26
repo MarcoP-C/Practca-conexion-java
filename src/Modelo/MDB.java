@@ -17,7 +17,7 @@ public class MDB {
         //conexion = new Conexion("com.mysql.jdbc.Driver",  "jdbc:mysql://127.0.0.1:3306/bddatos", "root","administrador");
 	//public Conexion(String controlador, String contrasena, String URL, String usuario) {
 	//conexion = new Conexion("com.mysql.jdbc.Driver",  "jdbc:mysql://localhost:3306/bdcostos?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useTimezone=true&serverTimezone=GMT&useSSL=false", "root","Osar15");
-        conexion = new Conexion("com.mysql.jdbc.Driver",  "jdbc:mysql://sql5.freesqldatabase.com:3306/sql5473779", "sql5473779","mQY7mWb5cy");
+        conexion = new Conexion("com.mysql.jdbc.Driver",  "jdbc:mysql://sql5.freesqldatabase.com:3306/sql5475555", "sql5475555","DIyJeuSgAF");
 
         }
 
