@@ -35,7 +35,15 @@ public void actionPerformed(ActionEvent e) {
 
         if (e.getSource()==_view.cmdAlta){ //Si el botón presionado fue el de alta
          // System.out.print("paso");
-        leyenda=_model.registrarAlta("clientes",Integer.parseInt(_view.txtCedula.getText())+",'" +_view.txtLugarExp.getText() +"','"+_view.txtNombreCom.getText()+"','"+_view.txtProfesion.getText()+"','"+_view.txtDireccion.getText()+"','"+_view.txtCiudad.getText()+"','"+_view.txtDepartamento.getText()+"','"+_view.txtEmail.getText() +"',"+Integer.parseInt(_view.txtCelRecidencia.getText())+","+Integer.parseInt(_view.txtTelTrabajo.getText())+","+ Integer.parseInt(_view.txtNumFactura.getText())+",'"+ _view.txtFechaCredito.getText() +"','"+_view.txtTipoCartera.getText() +"',"+Double.parseDouble(_view.txtValorCredito.getText())+","+Integer.parseInt(_view.txtNumCuotas.getText()));//**************
+        leyenda=_model.registrarAlta("clientes",Integer.parseInt(_view.txtCedula.getText())+",'" 
+                +_view.txtLugarExp.getText() +"','"+_view.txtNombreCom.getText()+"','"
+                +_view.txtProfesion.getText()+"','"+_view.txtDireccion.getText()+"','"
+                +_view.txtCiudad.getText()+"','"+_view.txtDepartamento.getText()+"','"
+                +_view.txtEmail.getText() +"',"+Integer.parseInt(_view.txtCelRecidencia.getText())
+                +","+Integer.parseInt(_view.txtTelTrabajo.getText())+","
+                + Integer.parseInt(_view.txtNumFactura.getText())+",'"+ _view.txtFechaCredito.getText() 
+                +"','"+_view.txtTipoCartera.getText() +"',"+Double.parseDouble(_view.txtValorCredito.getText())
+                +","+Integer.parseInt(_view.txtNumCuotas.getText()));//**************
         //Se puede usar una variable o el control, lo ideal es que se pudiera llamar una función de
        // validación aquí sobre los datos obteindos de las cajas de texto
        System.out.print (leyenda);
